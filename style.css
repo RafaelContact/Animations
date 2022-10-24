@@ -8,7 +8,8 @@ url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swa
     font-family: 'IBM Plex Mono', monospace;
 
 }
-body{background-color: black;
+body{
+    background-color: black;
 }
 
 main{
@@ -26,11 +27,12 @@ h1{
 .bloco{
     width: 300px;
     animation-name: move;
-   /* background-color: black; */
-    animation-duration: 3s;
+   background-color: black;
+    animation-duration: 10s;
     animation-timing-function: steps(8);
     position: absolute;
     top: 0;
+    left: 620px;
 }
 .cursor{
     animation: fadeOut 0.5s alternate;
@@ -39,11 +41,8 @@ h1{
     background-color: rgb(83, 204, 83);
     width: 2px;
     height: 70px;
-    margin: 10px;
-    float: right;
-}
-.texto{
-    
+    /* margin: 10px; */
+    /* float: right; */
 }
 
 @keyframes fadeOut {

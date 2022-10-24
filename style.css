@@ -3,13 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{background-color: gray;}
+body{background-color: gray;
+}
+
+h1{
+    font-size: 65px;
+}
 .bloco{
-    width: 500px;
+    width: 300px;
     animation-name: move;
-    background-color: red;
+   
     animation-duration: 3s;
-    animation-timing-function: steps(7);
+    animation-timing-function: steps(8);
+    position: absolute;
+    top: 0;
 }
 .cursor{
     animation: fadeOut 0.5s alternate;

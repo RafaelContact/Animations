@@ -16,7 +16,7 @@ main{
     width: 700px;
     margin: auto;
 }
-h1{
+.titulo{
     /* background-color: red; */
     color: rgb(83, 204, 83);
     font-size: 58px;
@@ -24,11 +24,15 @@ h1{
     /* margin-left: -10px; */
     letter-spacing: 3px;
 }
+h1{
+    animation-delay: 2s;
+}
 .bloco{
     width: 300px;
     animation-name: move;
    background-color: black;
-    animation-duration: 3.5s;
+   animation-delay: 2s;
+    animation-duration: 2s;
     animation-timing-function: steps(8);
     position: absolute;
     top: 0;
@@ -41,6 +45,8 @@ h1{
     background-color: rgb(83, 204, 83);
     width: 2px;
     height: 75px;
+    animation-delay: 2.2s;
+    animation-iteration-count: 10;
     /* margin: 10px; */
     /* float: right; */
 }
@@ -50,19 +56,27 @@ h1{
     /* width: 240px; */
     /* background-color: red; */
     left: 553px;
+    animation-delay: 4.4s;
 }
+.cursor2{
+    animation-delay: 5.2s;
+    animation-iteration-count: infinite;
+   
+}
+
 @keyframes fadeOut {
     0%{
-        opacity: 1;
+        opacity: 0;
     }
     100%{
-        opacity: 0;
+        opacity: 1;
     }
 }
 @keyframes move{
     0%{
         transform: translateX(-101%);
+        /* se eu usar 0 até 101 no final da execução ele tampa as letras de novo. */
     }
     100%{
-        transform: translateX(calc(0%));
+        transform: translateX(0%);
 }

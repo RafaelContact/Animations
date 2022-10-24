@@ -21,30 +21,36 @@ h1{
     color: rgb(83, 204, 83);
     font-size: 58px;
     width: 290px;
-    margin-left: -10px;
-    letter-spacing: 2px;
+    /* margin-left: -10px; */
+    letter-spacing: 3px;
 }
 .bloco{
     width: 300px;
     animation-name: move;
    background-color: black;
-    animation-duration: 10s;
+    animation-duration: 3.5s;
     animation-timing-function: steps(8);
     position: absolute;
     top: 0;
-    left: 620px;
+    left: 630px;
 }
 .cursor{
-    animation: fadeOut 0.5s alternate;
+    animation: fadeOut 0.3s alternate;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
     background-color: rgb(83, 204, 83);
     width: 2px;
-    height: 70px;
+    height: 75px;
     /* margin: 10px; */
     /* float: right; */
 }
-
+.bloco2{
+    /* background-color: red; */
+    top:80px;
+    /* width: 240px; */
+    /* background-color: red; */
+    left: 553px;
+}
 @keyframes fadeOut {
     0%{
         opacity: 1;

@@ -1,18 +1,32 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+
 }
-body{background-color: gray;
+body{background-color: black;
 }
 
+main{
+    width: 700px;
+    margin: auto;
+}
 h1{
-    font-size: 65px;
+    /* background-color: red; */
+    color: rgb(83, 204, 83);
+    font-size: 58px;
+    width: 290px;
+    margin-left: -10px;
+    letter-spacing: 2px;
 }
 .bloco{
     width: 300px;
     animation-name: move;
-   
+   /* background-color: black; */
     animation-duration: 3s;
     animation-timing-function: steps(8);
     position: absolute;
@@ -22,9 +36,9 @@ h1{
     animation: fadeOut 0.5s alternate;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
-    background-color: black;
+    background-color: rgb(83, 204, 83);
     width: 2px;
-    height: 50px;
+    height: 70px;
     margin: 10px;
     float: right;
 }

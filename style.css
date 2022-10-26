@@ -63,6 +63,9 @@ h1{
     animation-iteration-count: infinite;
    
 }
+img{
+    opacity: 0;
+}
 
 @keyframes fadeOut {
     0%{

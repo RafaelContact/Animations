@@ -13,6 +13,7 @@ Aqui treinei coisas como :
 - [x] tentar fazer a concepção de uma página e como a ordem das coisas devem aparecer.
 
 ; Dê uma olhada nessa animação : 
+Estrelas se movendo por trás , lua fixa , pagina carregando em processo de aumentar a opacidade do zero ...
 
 ![animação](https://github.com/rafinha-dev/Animations/blob/master/src/images/animations.gif)
 

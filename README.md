@@ -4,13 +4,13 @@ Essa página é só um projeto pessoal para colocar em prática alguns conceitos
 Não dá pra dizer que ele foi especificamente planejado por que foi apenas uma brincadeira, então a imagem é super grande, apesar de 
 ter efeitos legais pode ser que você tenha problema de carregar ,além de não ter responsividade !
 
-Aqui treinei coisas como : 
+## treinei coisas como : 
 
 - [x] animações
 
 - [x] gimp 
 
-- [x] tentar fazer a concepção de uma página e como a ordem das coisas devem aparecer.
+- [x] tentar fazer a concepção dos elementos da página e como a ordem dos elementos.
 
 ; Dê uma olhada nessa animação : 
 Estrelas se movendo por trás , lua fixa , pagina carregando em processo de aumentar a opacidade do zero ...
